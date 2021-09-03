@@ -1,1 +1,13 @@
-To use project
+# To use project without compiling
+
+* Files for Pynq are found under pynq directory. Copy files into SD card.
+* Open fft_avg_ad_da.ipynb on web browser and execute desired cells.
+
+# To create the project from scratch (Vivado 2019.1)
+
+* Open vivado.
+* Execute project script: Tools->Run Tcl Script and select proj.tcl
+* This will import all IPs, create bd diagram and let the project ready for implementation.
+* Execute the entire flow by pressing Generate Bitstream on the left pane.
+
+ 
